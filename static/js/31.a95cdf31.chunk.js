@@ -1,0 +1,2 @@
+(this.webpackJsonpmanicule=this.webpackJsonpmanicule||[]).push([[31],{189:function(e){e.exports=JSON.parse('[{"item":1,"page":5},{"item":2,"page":6}]')}}]);
+//# sourceMappingURL=31.a95cdf31.chunk.js.map

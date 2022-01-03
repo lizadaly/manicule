@@ -1,0 +1,2 @@
+(this.webpackJsonpmanicule=this.webpackJsonpmanicule||[]).push([[3],{197:function(n,t,i){"use strict";i.r(t),t.default="<div>\n\t<p>\tIn Canto 4, \u201cThe Innamoration,\u201d Theophila takes over the text\u2019s narration, first in a long soliloquy on her infatuation with God\u2019s cleansing light, followed this, by her \u201cLove-Song.\u201d </p>\n</div>\n\n"}}]);
+//# sourceMappingURL=3.4cc20be0.chunk.js.map

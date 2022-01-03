@@ -1,0 +1,2 @@
+(this.webpackJsonpmanicule=this.webpackJsonpmanicule||[]).push([[24],{218:function(n,t,e){"use strict";e.r(t),t.default="<div>\n  <p>\n  Test content for 2\n  </p>\n</div>"}}]);
+//# sourceMappingURL=24.3693e42e.chunk.js.map

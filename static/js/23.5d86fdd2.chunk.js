@@ -1,0 +1,2 @@
+(this.webpackJsonpmanicule=this.webpackJsonpmanicule||[]).push([[23],{217:function(e,n,i){"use strict";i.r(n),n.default="<div>\n  <p>\n  Test content for 1\n  \x3c!-- TODO add image example here --\x3e\n  </p>\n</div>"}}]);
+//# sourceMappingURL=23.5d86fdd2.chunk.js.map
