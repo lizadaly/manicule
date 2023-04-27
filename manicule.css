@@ -20,9 +20,7 @@ body {
 button {
   cursor: pointer;
 }
-a {
-  color: var(--light-color);
-}
+
 header {
   padding: 0 var(--margin-width);
   border-bottom: var(--region-border) solid var(--accent-color);
@@ -46,6 +44,9 @@ header nav ol {
   align-items: center;
   justify-content: space-around;
   width: 50%;
+}
+header nav a {
+  color: var(--light-color);
 }
 footer {
   margin: var(--margin-height) var(--margin-width);
