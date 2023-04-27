@@ -20,7 +20,9 @@ body {
 button {
   cursor: pointer;
 }
-
+a {
+  color: var(--light-color);
+}
 header {
   padding: 0 var(--margin-width);
   border-bottom: var(--region-border) solid var(--accent-color);
