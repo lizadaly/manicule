@@ -1,0 +1,2459 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/manifest",
+    "@type": "sc:Manifest",
+    "label": "Confessione generale.",
+    "attribution": "University of Pennsylvania Libraries",
+    "viewingHint": "paged",
+    "viewingDirection": "left-to-right",
+    "structures": [
+        {
+            "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/range/r7",
+            "@type": "sc:Range",
+            "label": "1r",
+            "ranges": [
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/range/r7-1",
+                    "@type": "sc:Range",
+                    "label": "Confessione generale, f. 1r",
+                    "canvases": [
+                        "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p7"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/range/r27",
+            "@type": "sc:Range",
+            "label": "11r",
+            "ranges": [
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/range/r27-1",
+                    "@type": "sc:Range",
+                    "label": "Manual for confessors, f. 11r",
+                    "canvases": [
+                        "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p27"
+                    ]
+                }
+            ]
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Current order",
+            "canvases": [
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "label": "Front cover",
+                    "height": 5043,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s6524111--acbc3f595a066092308ee27c93a144657048bda2764e7cfa9c79e36e13bb6d39.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 5043,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s6524111--acbc3f595a066092308ee27c93a144657048bda2764e7cfa9c79e36e13bb6d39.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p1"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s33895806--55ad9c8cae712d5a0a79b06603abed9899505631c29ae305a4f4fe9e13903b8d.tif?disposition=attachment&filename=mscodex1263_wk1_front0001",
+                            "label": "Original File - 32.3 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "label": "Inside front cover",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2808596--394970f0ec7b1dfe8f821f84be1ecebda637dd3330de92ad91ffa96455094756.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2808596--394970f0ec7b1dfe8f821f84be1ecebda637dd3330de92ad91ffa96455094756.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p2"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--a1090e62fd589d37ef4de1f0b5a85f93b255614df1e7c61d361d9d016672d698.tif?disposition=attachment&filename=mscodex1263_wk1_front0002",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 1 recto]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2933086--e58bb37ea69f315ebb36ba0d070f849da5ec99a7d1ed8bd23d923db222cbe820.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2933086--e58bb37ea69f315ebb36ba0d070f849da5ec99a7d1ed8bd23d923db222cbe820.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p3"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--c97cbe64267448a83946b04b2cc5182b695394f1009f9bef555f66a80e99d722.tif?disposition=attachment&filename=mscodex1263_wk1_front0003",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 1 verso]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2425657--143f6d065bfc162f2883480b7c57b6d02668168fc09ae9319b19bc2734177d77.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2425657--143f6d065bfc162f2883480b7c57b6d02668168fc09ae9319b19bc2734177d77.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p4"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--388386943a977fced61ec4e1339da464522b88e64311fcf3a67d57e6b7ecb15f.tif?disposition=attachment&filename=mscodex1263_wk1_front0004",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 2 recto]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2390814--3b1597cb554841d65b309ccbd969101897275edb8fdde129eb90d61ee51026d5.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2390814--3b1597cb554841d65b309ccbd969101897275edb8fdde129eb90d61ee51026d5.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p5"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b112736092ffcb779230c83b33f6e00d637d2d28106879094a327597d43dbe1a.tif?disposition=attachment&filename=mscodex1263_wk1_front0005",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 2 verso]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2473680--11abee5ad19008fd783facc98f8add999fd4c2d753d4beccbbdc75d8d8065540.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2473680--11abee5ad19008fd783facc98f8add999fd4c2d753d4beccbbdc75d8d8065540.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p6"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--a848ec5b70b8ffc0606749bf75a34b92cb890fedeb49acc90b5a670060566a93.tif?disposition=attachment&filename=mscodex1263_wk1_front0006",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "label": "1r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3008604--6aa3fe34c5fe2c5453cea45fb6d471f148d67ac8b6d548844bc5184ddbe3c458.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3008604--6aa3fe34c5fe2c5453cea45fb6d471f148d67ac8b6d548844bc5184ddbe3c458.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p7"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b4f7499fc513bf8d688a6882a9555421e3d8721fd3f478b5518fd6c0e7a59795.tif?disposition=attachment&filename=mscodex1263_wk1_body0001",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "label": "1v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4018784--f794682952f94a7231a271d05a4dfbf52f83bb0976c60ae61c21b3f62f4a3e3b.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4018784--f794682952f94a7231a271d05a4dfbf52f83bb0976c60ae61c21b3f62f4a3e3b.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p8"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--689be50f50d18e0c8488e2a21f157c4b0c8fa2f00272f9855dd9f20957b7bd9a.tif?disposition=attachment&filename=mscodex1263_wk1_body0002",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "label": "2r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4256184--f397f5bb0a86f85a0fdfa9ed03e0c61dfcdd23fac94357cfc1f4b0ced6d1373e.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4256184--f397f5bb0a86f85a0fdfa9ed03e0c61dfcdd23fac94357cfc1f4b0ced6d1373e.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p9"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--f9da5173bc95f462e28ebf8d313a6e65892d4759e909898e853e0596dd60249e.tif?disposition=attachment&filename=mscodex1263_wk1_body0003",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "label": "2v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3046070--5fefbb7a7680a85307467457c7ae86056ab736607556337ef3d50bcf6a236ca1.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3046070--5fefbb7a7680a85307467457c7ae86056ab736607556337ef3d50bcf6a236ca1.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p10"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--c981328acf6fe9b857c07e77bfcb5096b84b983c8c4c7e117b4ea25e8eca0174.tif?disposition=attachment&filename=mscodex1263_wk1_body0004",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p11",
+                    "@type": "sc:Canvas",
+                    "label": "3r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3109199--a9e5655dae7f46cdbba5436813a982cb68f858232168734b11474d19957ea0b6.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3109199--a9e5655dae7f46cdbba5436813a982cb68f858232168734b11474d19957ea0b6.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p11"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--8ce9322329d6dec13b1c595ef18a0d5c4dd3dc3a7c147e4b04de8f05bbbbd2f7.tif?disposition=attachment&filename=mscodex1263_wk1_body0005",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p12",
+                    "@type": "sc:Canvas",
+                    "label": "3v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4070465--9157b1bc37f0e032ba60dfa7d8d1971b301c2a531e042ccda1a2e10e6dd01d00.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4070465--9157b1bc37f0e032ba60dfa7d8d1971b301c2a531e042ccda1a2e10e6dd01d00.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p12"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--28cc8bdd0a0a41e53b60f298e83c4f2974a5bc3f497f6251b0af97e3cf932318.tif?disposition=attachment&filename=mscodex1263_wk1_body0006",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p13",
+                    "@type": "sc:Canvas",
+                    "label": "4r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4303580--362a4b85ee2e45a943a4dd3ac0fc9b818dac1981468b22a571a22c80004ebffa.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4303580--362a4b85ee2e45a943a4dd3ac0fc9b818dac1981468b22a571a22c80004ebffa.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p13"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--87a88a43ad5a6ba3253ef991660947e29f2a54c5e75d46bdb8a94a94e80f1ece.tif?disposition=attachment&filename=mscodex1263_wk1_body0007",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p14",
+                    "@type": "sc:Canvas",
+                    "label": "4v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3088436--aad32ee3fa9dbdb1859c75d49e19112a9178a79cb920aef3b3c9c87296cfae10.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3088436--aad32ee3fa9dbdb1859c75d49e19112a9178a79cb920aef3b3c9c87296cfae10.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p14"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--7a8d7e0b3de7c948573da8d9be0957964ff5a68b99ed6989843f065615727791.tif?disposition=attachment&filename=mscodex1263_wk1_body0008",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p15",
+                    "@type": "sc:Canvas",
+                    "label": "5r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3224391--db3e659e42b9fde4db56c41d728ee8785840d4c0c7cc3d7ed2ed5d47d2363944.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3224391--db3e659e42b9fde4db56c41d728ee8785840d4c0c7cc3d7ed2ed5d47d2363944.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p15"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--cd6b9a18973cc6cc96777a19cc27ffd1e5686562c49a9736844fdda7a6ae9d65.tif?disposition=attachment&filename=mscodex1263_wk1_body0009",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p16",
+                    "@type": "sc:Canvas",
+                    "label": "5v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3711834--b0e04ee795c90edb62d3c7c66459a3f8ccda0411dda09de362931c3f2e2ac771.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3711834--b0e04ee795c90edb62d3c7c66459a3f8ccda0411dda09de362931c3f2e2ac771.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p16"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--446892550133395e18260779434270ee5bab5323c4c44987a44e09acf8137b97.tif?disposition=attachment&filename=mscodex1263_wk1_body0010",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p17",
+                    "@type": "sc:Canvas",
+                    "label": "6r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3861751--e6a73cf005a3d52e4fe2fad3b5256ea08c4cd644c9dd258098c15b5f2bf29d14.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3861751--e6a73cf005a3d52e4fe2fad3b5256ea08c4cd644c9dd258098c15b5f2bf29d14.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p17"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--76a636617bec03cacc2bcaebab95f505f33799b4f71dd8e3f8cddcd9b622ead9.tif?disposition=attachment&filename=mscodex1263_wk1_body0011",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p18",
+                    "@type": "sc:Canvas",
+                    "label": "6v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3086349--1e5b7df32d05761b2b2289dc809ffc268d63f690cd0356f144bc6e455f617aca.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3086349--1e5b7df32d05761b2b2289dc809ffc268d63f690cd0356f144bc6e455f617aca.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p18"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--87c89f1c026fa08a9e7666e8c346bf9149c286efb32ade2e9d19679fd783152a.tif?disposition=attachment&filename=mscodex1263_wk1_body0012",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p19",
+                    "@type": "sc:Canvas",
+                    "label": "7r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3079064--945e838cb39cd929af2de0d8293d3577b03cba904fc18d9dac5e61f041ca3ad7.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3079064--945e838cb39cd929af2de0d8293d3577b03cba904fc18d9dac5e61f041ca3ad7.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p19"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--2646107558022069565f017e9dab99fb7332d032d9bd0f5818f8f1fe09e19973.tif?disposition=attachment&filename=mscodex1263_wk1_body0013",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p20",
+                    "@type": "sc:Canvas",
+                    "label": "7v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3951078--be249c02bff15cff17079e6f686eda619ab74691c4c28ac40a1961bd3fc229e0.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3951078--be249c02bff15cff17079e6f686eda619ab74691c4c28ac40a1961bd3fc229e0.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p20"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--56a324f39e2a4cfe54dfeb131416990a4c25ecae24206a478fbee6522fd3dff9.tif?disposition=attachment&filename=mscodex1263_wk1_body0014",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p21",
+                    "@type": "sc:Canvas",
+                    "label": "8r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4175783--8559359c3774dc4deb154a78c7ac22563c02680720932dc573f99281fbdf46a2.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4175783--8559359c3774dc4deb154a78c7ac22563c02680720932dc573f99281fbdf46a2.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p21"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--07df2012a8c53a1490a19abda98b85f3d561cee89ef4d4a58a19de6358893fef.tif?disposition=attachment&filename=mscodex1263_wk1_body0015",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p22",
+                    "@type": "sc:Canvas",
+                    "label": "8v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2993554--72eb7c8c718c686272f2cd02c64d580f57284323c93b3880a8fab254845fb437.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2993554--72eb7c8c718c686272f2cd02c64d580f57284323c93b3880a8fab254845fb437.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p22"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b6338c0f9c66d1a17461ffe95703797b096b1387780043fd058c8d1a5d02d013.tif?disposition=attachment&filename=mscodex1263_wk1_body0016",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p23",
+                    "@type": "sc:Canvas",
+                    "label": "9r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2931385--7d8cecd853c97019684bea750f925168342648731e07303ec67ce30c18c019ef.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2931385--7d8cecd853c97019684bea750f925168342648731e07303ec67ce30c18c019ef.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p23"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--cab8c5e7ee769b27f3b469ea7ec24cb128f2de72687fc9d4174f2deb9b0afa12.tif?disposition=attachment&filename=mscodex1263_wk1_body0017",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p24",
+                    "@type": "sc:Canvas",
+                    "label": "9v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3886946--e8e37770c53f83778da0c122009ec16a26de6a11d5892e81808a57cf3d0935fc.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3886946--e8e37770c53f83778da0c122009ec16a26de6a11d5892e81808a57cf3d0935fc.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p24"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--1c1e8947c355774dec118eddfac8099ed9d9a6b2555676808a92e6c7989df66d.tif?disposition=attachment&filename=mscodex1263_wk1_body0018",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p25",
+                    "@type": "sc:Canvas",
+                    "label": "10r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4059673--d453e2333ea629be8885a5f0c9c6cefbcc6dd178e729436c0ee02520ba1c0dc8.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4059673--d453e2333ea629be8885a5f0c9c6cefbcc6dd178e729436c0ee02520ba1c0dc8.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p25"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--edb123e5ad90b57972a2474acf5f8c10c2034b7469470c58dc2a18176e764024.tif?disposition=attachment&filename=mscodex1263_wk1_body0019",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p26",
+                    "@type": "sc:Canvas",
+                    "label": "10v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2599901--584a2bbaca727d3ebcd3b0f1aae597db26e7148fc5697c04d6a70bcb7cea36a2.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2599901--584a2bbaca727d3ebcd3b0f1aae597db26e7148fc5697c04d6a70bcb7cea36a2.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p26"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--ea61f2ee22b8bc8b76f690e1e7c9d22ace10aec86ac90bbd2b3416982945bcb1.tif?disposition=attachment&filename=mscodex1263_wk1_body0020",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p27",
+                    "@type": "sc:Canvas",
+                    "label": "11r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3080455--37442025e31366024feb213002aa1c51648651eb46589b81ac7d1fe60c30552a.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3080455--37442025e31366024feb213002aa1c51648651eb46589b81ac7d1fe60c30552a.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p27"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--f48dc2f186f39419853b3203155537e0c9935666dd2e858b9292a62972f0b172.tif?disposition=attachment&filename=mscodex1263_wk1_body0021",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p28",
+                    "@type": "sc:Canvas",
+                    "label": "11v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3788648--2bc71e01a7ec710f57cfb5d4a128897839125b5ff0f7b0edd4574039ae890471.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3788648--2bc71e01a7ec710f57cfb5d4a128897839125b5ff0f7b0edd4574039ae890471.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p28"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b7158cbc984fa0acdffe79bb142e72aae8f9aafa85b1c3b4788d05eb4a74b8b9.tif?disposition=attachment&filename=mscodex1263_wk1_body0022",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p29",
+                    "@type": "sc:Canvas",
+                    "label": "12r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4091687--68f5d942187f20232c951225b429400f209f6f07dc17ce4e5b194713b6d064f6.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4091687--68f5d942187f20232c951225b429400f209f6f07dc17ce4e5b194713b6d064f6.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p29"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--704cd41a32c443ff7d9c5bdcee3e163ff27df8a790a430a2c01476b441c2225c.tif?disposition=attachment&filename=mscodex1263_wk1_body0023",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p30",
+                    "@type": "sc:Canvas",
+                    "label": "12v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3149641--30f743e0ce33c58291a2331eec26b806ab381e23cace2b0b69d788ea20ac92c3.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3149641--30f743e0ce33c58291a2331eec26b806ab381e23cace2b0b69d788ea20ac92c3.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p30"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--413e3d1ea721d90cc1670e3df81ef2ebfeb78471660a88113e87d4f16c8e6d2b.tif?disposition=attachment&filename=mscodex1263_wk1_body0024",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p31",
+                    "@type": "sc:Canvas",
+                    "label": "13r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3149893--3ad992d878996a35885c581d6086c422f224cd9c13903c055daa0abca5f37a88.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3149893--3ad992d878996a35885c581d6086c422f224cd9c13903c055daa0abca5f37a88.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p31"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--4fda1351feaf95e50f9765792ead9e589fcb40995c7754698be7e7046df9673f.tif?disposition=attachment&filename=mscodex1263_wk1_body0025",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p32",
+                    "@type": "sc:Canvas",
+                    "label": "13v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4653720--432bda7f858e970971e22374faedcc37aa654d724877bccb46c0ea444ecb2b78.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4653720--432bda7f858e970971e22374faedcc37aa654d724877bccb46c0ea444ecb2b78.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p32"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--2095b8384e8d5f69bfdf2afef6c93e11922e3f2f3d4de8e65ef7db876aa59708.tif?disposition=attachment&filename=mscodex1263_wk1_body0026",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p33",
+                    "@type": "sc:Canvas",
+                    "label": "14r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s5139297--fa5b4ea8d9e0a7e87203276d8301d62d563a1377f0a9e958b48e9eeecea57e1f.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s5139297--fa5b4ea8d9e0a7e87203276d8301d62d563a1377f0a9e958b48e9eeecea57e1f.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p33"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--4d3979c39a821ebfcaacc13d4c18f8a8130cc2ace5b46358cfa7f895038cab87.tif?disposition=attachment&filename=mscodex1263_wk1_body0027",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p34",
+                    "@type": "sc:Canvas",
+                    "label": "14v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3142626--2a3fc1c3a89ac944f82a0e2900dcd53a651946164018e326eaac89a912eeb8db.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3142626--2a3fc1c3a89ac944f82a0e2900dcd53a651946164018e326eaac89a912eeb8db.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p34"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--fbd14798e7e344155ffd5f6b2d93652b5fdb3b971eb0385c6abd89f166ee2777.tif?disposition=attachment&filename=mscodex1263_wk1_body0028",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p35",
+                    "@type": "sc:Canvas",
+                    "label": "15r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3121843--8506eec95c828058b8374e1091238d3a31e66b78a0be91703c203ad544bec746.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3121843--8506eec95c828058b8374e1091238d3a31e66b78a0be91703c203ad544bec746.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p35"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--d7cc714dd7b4f0b953e9b1e77a016deb9a21c323f53a0f5bec41d4694c5f9a82.tif?disposition=attachment&filename=mscodex1263_wk1_body0029",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p36",
+                    "@type": "sc:Canvas",
+                    "label": "15v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4040429--b378c28215d3b33f8bb7952db38f6762b7134cec6979a384da3b23e8299ba75b.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4040429--b378c28215d3b33f8bb7952db38f6762b7134cec6979a384da3b23e8299ba75b.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p36"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--23be5b11df748c5dacd69e44a895a551b3420b9ece97565ead7330fb0a243f05.tif?disposition=attachment&filename=mscodex1263_wk1_body0030",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p37",
+                    "@type": "sc:Canvas",
+                    "label": "16r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3954236--2c387c6f56538b19a485bfb3626ccf8bd6297f793582a43197264e60873e99ff.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3954236--2c387c6f56538b19a485bfb3626ccf8bd6297f793582a43197264e60873e99ff.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p37"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--2d2f67793e65f038ed48d5e4a1aef6af48b88dc7410d0479689b7c8117b3a4ff.tif?disposition=attachment&filename=mscodex1263_wk1_body0031",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p38",
+                    "@type": "sc:Canvas",
+                    "label": "16v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3101417--e9ba728a4427d9b8236a26bdace2de34c7aeb258fba3d159e36baffecd4a0a40.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3101417--e9ba728a4427d9b8236a26bdace2de34c7aeb258fba3d159e36baffecd4a0a40.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p38"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b05ea65617537c29103dac2714bf09c765c66f9c7113c534e628ea99f686f732.tif?disposition=attachment&filename=mscodex1263_wk1_body0032",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p39",
+                    "@type": "sc:Canvas",
+                    "label": "17r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3072484--3eb9e4df93bd6aeb11aceebcf7048cac54007e1a1266bf4c28aee7c8a11501eb.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3072484--3eb9e4df93bd6aeb11aceebcf7048cac54007e1a1266bf4c28aee7c8a11501eb.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p39"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--a1a1841665b53e6c5f0602a5bebc6ddbd60d491e248c28c0d4496752ad4353b2.tif?disposition=attachment&filename=mscodex1263_wk1_body0033",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p40",
+                    "@type": "sc:Canvas",
+                    "label": "17v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4892166--bf0fcb0967c599baef87d1518e2470bc80bf0277ef70a5ca41b8efcfa8e194d1.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4892166--bf0fcb0967c599baef87d1518e2470bc80bf0277ef70a5ca41b8efcfa8e194d1.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p40"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--45da9ad73643bb5fd968a57cd0e4f482274d48762975822b36462f1352b704d5.tif?disposition=attachment&filename=mscodex1263_wk1_body0034",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p41",
+                    "@type": "sc:Canvas",
+                    "label": "18r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4519796--4d765703f0bf12e680ee5e2e1eeecba22a7332e1ab04217ab47335c0df3fb41f.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4519796--4d765703f0bf12e680ee5e2e1eeecba22a7332e1ab04217ab47335c0df3fb41f.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p41"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--e62b9fcd1e25b24070ebf621ef91f286ac25bc44960732810f69ab4094d6de7b.tif?disposition=attachment&filename=mscodex1263_wk1_body0035",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p42",
+                    "@type": "sc:Canvas",
+                    "label": "18v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3251137--610cb765f9170e18060b8fbda17d21eafff1bee6c371a6beabfbb479b9db5aff.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3251137--610cb765f9170e18060b8fbda17d21eafff1bee6c371a6beabfbb479b9db5aff.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p42"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--3456b4c241b1b2b38f7d733a7e43f7c2d312c5a61e49f8006359268d33ea527b.tif?disposition=attachment&filename=mscodex1263_wk1_body0036",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p43",
+                    "@type": "sc:Canvas",
+                    "label": "19r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3142816--73958b113e5c2beb5acf45ed82d58e2747286b89dce9aadc537c9eb98b64643b.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3142816--73958b113e5c2beb5acf45ed82d58e2747286b89dce9aadc537c9eb98b64643b.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p43"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--4ff1c66a56c9648cca0851be36f1e71173ed9a862339a28322134a73ccbc49a7.tif?disposition=attachment&filename=mscodex1263_wk1_body0037",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p44",
+                    "@type": "sc:Canvas",
+                    "label": "19v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3813479--c611cdb0416ad33838985f28cd6e28ac32c562695c5d22b07161e98e4c28c3ed.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3813479--c611cdb0416ad33838985f28cd6e28ac32c562695c5d22b07161e98e4c28c3ed.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p44"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--65c5dee5323bcdcc7b03c4c60994db92d5068f0740748a77a5c6804514de3787.tif?disposition=attachment&filename=mscodex1263_wk1_body0038",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p45",
+                    "@type": "sc:Canvas",
+                    "label": "20r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3602258--16cb3a64ecf150835ed118f52a478de6afe7e4637ec8c39b89d0c4b28b1da5c2.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3602258--16cb3a64ecf150835ed118f52a478de6afe7e4637ec8c39b89d0c4b28b1da5c2.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p45"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--01de4c376acabe2761e1df41e53e2b84fe0a503db7ab03f7c2e88ca2a89390ff.tif?disposition=attachment&filename=mscodex1263_wk1_body0039",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p46",
+                    "@type": "sc:Canvas",
+                    "label": "20v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3107296--570aae3a5adb1dc3f745a88175770858350ad71aa2d83330206a87f573f02c5d.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3107296--570aae3a5adb1dc3f745a88175770858350ad71aa2d83330206a87f573f02c5d.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p46"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--105fe639ab2e29382544a82bf1143af6ea041611120fe3250dae93f0abc683ba.tif?disposition=attachment&filename=mscodex1263_wk1_body0040",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p47",
+                    "@type": "sc:Canvas",
+                    "label": "21r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3043440--0e07c9dc57bb5cb47b7d627acbc3a773492aa33b7742ab30d5e3927582a42fe0.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3043440--0e07c9dc57bb5cb47b7d627acbc3a773492aa33b7742ab30d5e3927582a42fe0.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p47"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--9d2ef21cbadbdce6e90c35b652661b7fa0facb7855680b409e5ba29b85cf3006.tif?disposition=attachment&filename=mscodex1263_wk1_body0041",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p48",
+                    "@type": "sc:Canvas",
+                    "label": "21v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3592904--300300ecac9868fcce6e175fe41e0f80caefa3d743c8ef077f60f16e30400c34.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3592904--300300ecac9868fcce6e175fe41e0f80caefa3d743c8ef077f60f16e30400c34.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p48"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--cac0aa5f4977ae167b7ea2b1e3494e7701075d7845285e03fd751f037f87771a.tif?disposition=attachment&filename=mscodex1263_wk1_body0042",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p49",
+                    "@type": "sc:Canvas",
+                    "label": "22r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3545215--b116d0f8c5039bd732050e9c7f7571a4ba61f4a1e46f01590b01681f24ca0a53.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3545215--b116d0f8c5039bd732050e9c7f7571a4ba61f4a1e46f01590b01681f24ca0a53.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p49"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--b3b125fa7fe8de46baab4c1ac7cbbbe9ee471b30a97ded847d633e97d3da1217.tif?disposition=attachment&filename=mscodex1263_wk1_body0043",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p50",
+                    "@type": "sc:Canvas",
+                    "label": "22v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3000230--c8d6f72c93a913f0f7ca5079eff16c01ad69362273460bd07c2bd723bc4426e7.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3000230--c8d6f72c93a913f0f7ca5079eff16c01ad69362273460bd07c2bd723bc4426e7.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p50"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--e60a101c57c7f4b09b53aa832a038d7bdd1b19c8707e50791fc213f6b58e0c01.tif?disposition=attachment&filename=mscodex1263_wk1_body0044",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p51",
+                    "@type": "sc:Canvas",
+                    "label": "23r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3223217--eb242cf5093e2e291f654ff0d014bd704a4fef776cb889bed2c085dae277d78f.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3223217--eb242cf5093e2e291f654ff0d014bd704a4fef776cb889bed2c085dae277d78f.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p51"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--a84240507a72ee6d1f1654e1d5b41814a1c6b7eb9e60877dcdc8eb0e61b890b7.tif?disposition=attachment&filename=mscodex1263_wk1_body0045",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p52",
+                    "@type": "sc:Canvas",
+                    "label": "23v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3978230--263febd892bdf486635bda79e1e4561fb38126c39a2563181829862c3f4dc854.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3978230--263febd892bdf486635bda79e1e4561fb38126c39a2563181829862c3f4dc854.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p52"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--87a31c6c5ccdd57619ec43cbfd0a784ad2dfe0039e10fcae1ec9ce352fc0018e.tif?disposition=attachment&filename=mscodex1263_wk1_body0046",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p53",
+                    "@type": "sc:Canvas",
+                    "label": "24r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3832528--0349781e18ab84b84829d4b0c32aabb96431c98008829e15b5a2ade701f0a1b4.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3832528--0349781e18ab84b84829d4b0c32aabb96431c98008829e15b5a2ade701f0a1b4.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p53"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--62fe8e28739cb95a237e278592011312e543376e6d53b0def783d31e766b4caf.tif?disposition=attachment&filename=mscodex1263_wk1_body0047",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p54",
+                    "@type": "sc:Canvas",
+                    "label": "24v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3426238--b2c5173e2bb54517dd1fb155f569f810f2f86158de4cca43085647b16e7774b7.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3426238--b2c5173e2bb54517dd1fb155f569f810f2f86158de4cca43085647b16e7774b7.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p54"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--347f87ba82fa8ce3bf83a5d46591328393de4505a528e0696c7a53c3c6be0682.tif?disposition=attachment&filename=mscodex1263_wk1_body0048",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p55",
+                    "@type": "sc:Canvas",
+                    "label": "25r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3043517--121bf88f1de48ab752395c26460a5ea18a3f380e3fb0da8bc3a9090d41e0b633.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3043517--121bf88f1de48ab752395c26460a5ea18a3f380e3fb0da8bc3a9090d41e0b633.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p55"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--485e227b8dee6bfab67eccb0bbfb84a996385167f1a2724c03c8d294ba118afb.tif?disposition=attachment&filename=mscodex1263_wk1_body0049",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p56",
+                    "@type": "sc:Canvas",
+                    "label": "25v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3973496--e78e38cfbf69566b96740bf132c78daab8711e335ecbc3fbc6d4d38f76ca05d1.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3973496--e78e38cfbf69566b96740bf132c78daab8711e335ecbc3fbc6d4d38f76ca05d1.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p56"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--aaf3f52bab5369db2b6d11bd7f53b3f8bf8b18512a845b3c487c89fb3d8e47e0.tif?disposition=attachment&filename=mscodex1263_wk1_body0050",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p57",
+                    "@type": "sc:Canvas",
+                    "label": "26r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3808454--eef8d936f9d989e6e148de51c412d29231f4fb28a7a474da7c42c07681ab5640.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3808454--eef8d936f9d989e6e148de51c412d29231f4fb28a7a474da7c42c07681ab5640.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p57"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--da3b86bc73b3c23e7eb94e84b543645ee442953840a1f026462188ec6ad78393.tif?disposition=attachment&filename=mscodex1263_wk1_body0051",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p58",
+                    "@type": "sc:Canvas",
+                    "label": "26v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3201527--72b9e1e6d7e353f29f1bb7dcd4c8e90bb31866f6bd26d787271a8b26881d5c5d.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3201527--72b9e1e6d7e353f29f1bb7dcd4c8e90bb31866f6bd26d787271a8b26881d5c5d.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p58"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--71ee4a24b0a5baa6b0a3b32052eba728552297e86895e23a9e3e44124195d3f1.tif?disposition=attachment&filename=mscodex1263_wk1_body0052",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p59",
+                    "@type": "sc:Canvas",
+                    "label": "27r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3298470--e0a3564aba0eaffb75419efc96d7a8d49e5c37689015c965ea847180cff419ed.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3298470--e0a3564aba0eaffb75419efc96d7a8d49e5c37689015c965ea847180cff419ed.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p59"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--08d9a23ec1206483ce98c7acb28df56eb4be7e68a86dfb41203e5aa856518fad.tif?disposition=attachment&filename=mscodex1263_wk1_body0053",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p60",
+                    "@type": "sc:Canvas",
+                    "label": "27v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4116796--e0d301ebfdb70d0884dd50e848b31bf1a212f0d30b92534b56a9c26443367acf.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s4116796--e0d301ebfdb70d0884dd50e848b31bf1a212f0d30b92534b56a9c26443367acf.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p60"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--8ef78298bfa72521ad07a08c45d24765ff1acb4b3fc45d1072f0da3241858da3.tif?disposition=attachment&filename=mscodex1263_wk1_body0054",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p61",
+                    "@type": "sc:Canvas",
+                    "label": "28r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3772487--b7db7846204ab5c80c6c9b6b138f3b8b62a7a961b45731c053b6d2f3d23058ec.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3772487--b7db7846204ab5c80c6c9b6b138f3b8b62a7a961b45731c053b6d2f3d23058ec.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p61"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--fa7b240a1aa37a706399f38e45871aa7391837df6fa7412b5d8dcb2f3dff418d.tif?disposition=attachment&filename=mscodex1263_wk1_body0055",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p62",
+                    "@type": "sc:Canvas",
+                    "label": "28v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3291900--8afebc130a5659d4839002c728a971cecefe9ca999932505b01532f386217421.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3291900--8afebc130a5659d4839002c728a971cecefe9ca999932505b01532f386217421.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p62"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--f2ea04c2dda35ebb5eb28733cac1a4ba97337ff62cfbef605ccb200d07a45a78.tif?disposition=attachment&filename=mscodex1263_wk1_body0056",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p63",
+                    "@type": "sc:Canvas",
+                    "label": "29r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2854898--af69e6c2a4a0ddea51f53cb7ab0895a62540680b62eeba309c8917ba59bf1ec7.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2854898--af69e6c2a4a0ddea51f53cb7ab0895a62540680b62eeba309c8917ba59bf1ec7.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p63"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--8a4ee77c9d85a0482337430ca7903abed216e7603c35e9393b13ed00e8e9c389.tif?disposition=attachment&filename=mscodex1263_wk1_body0057",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p64",
+                    "@type": "sc:Canvas",
+                    "label": "29v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3711902--5834410a49136cb42aa5993b0280d01e0c90b76f428641888cca121f70823d40.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3711902--5834410a49136cb42aa5993b0280d01e0c90b76f428641888cca121f70823d40.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p64"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--5aa8b49fc0897ccd6b6243e8a05a60e6e6937e6246fd2592eca20f2109e0617a.tif?disposition=attachment&filename=mscodex1263_wk1_body0058",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p65",
+                    "@type": "sc:Canvas",
+                    "label": "30r",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3643405--22401ae4b534ea4f8bd4e8b007ac3eccb1772015a8e532c4dea876385ff5af51.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3643405--22401ae4b534ea4f8bd4e8b007ac3eccb1772015a8e532c4dea876385ff5af51.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p65"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--74a52a1e4f5d0e8574d116123ac1b837800a0fc926951b2533afb596825ce698.tif?disposition=attachment&filename=mscodex1263_wk1_body0059",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p66",
+                    "@type": "sc:Canvas",
+                    "label": "30v",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3097688--db02abd16b0aa194cb6f209a166e2e39058042e3e2afdf4fa8cb3f8c6a2f8294.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s3097688--db02abd16b0aa194cb6f209a166e2e39058042e3e2afdf4fa8cb3f8c6a2f8294.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p66"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--7225f7267f1a2b6cf88763d43e44876870e7a5164ab0e9b3edd6d2124d651ff4.tif?disposition=attachment&filename=mscodex1263_wk1_body0060",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p67",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf  1 recto]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2415451--ddc180fb43aa50a1802ec855ef244162d5d78afb8a267d92b973b7fc9741da59.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2415451--ddc180fb43aa50a1802ec855ef244162d5d78afb8a267d92b973b7fc9741da59.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p67"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--d2d99180b249fbf4522c8e14980248307690473cc0f6251e7b028d0f554be0b4.tif?disposition=attachment&filename=mscodex1263_wk1_back0001",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p68",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 1 verso]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2470451--7e1fb7e7d054b267bb3792cdc5f563782cd2eacf85c90931f1517e0b73e2fe1d.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2470451--7e1fb7e7d054b267bb3792cdc5f563782cd2eacf85c90931f1517e0b73e2fe1d.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p68"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--56a6155487239459e3b528b09f3a6324a8284e49035bedf89b305ee65cd7dcfd.tif?disposition=attachment&filename=mscodex1263_wk1_back0002",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p69",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 2 recto]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2398323--3cc1e067f415d01a2743c261ca243a265d11b0be1f5d41e28f817feb4eec928b.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2398323--3cc1e067f415d01a2743c261ca243a265d11b0be1f5d41e28f817feb4eec928b.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p69"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--8e9cd83a6694b32e3786e6fb178c9951a4915c183f85e6523db5f00d9fd4675e.tif?disposition=attachment&filename=mscodex1263_wk1_back0003",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p70",
+                    "@type": "sc:Canvas",
+                    "label": "[Flyleaf 2 verso]",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2903732--9ceba318cd9ce2994da958d76a889ca217447ec38badcf10b6173e594e29e219.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2903732--9ceba318cd9ce2994da958d76a889ca217447ec38badcf10b6173e594e29e219.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p70"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--0dcffa037f0aacfa314af118f06179d3c7bdaecbf139a783ac64f02f4f3cd49b.tif?disposition=attachment&filename=mscodex1263_wk1_back0004",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p71",
+                    "@type": "sc:Canvas",
+                    "label": "Inside back cover",
+                    "height": 4852,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2665237--8484d3a9b9e32f1455e19ff05302263c9758e31e411ef4c070676bc95eb02bf2.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 4852,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s2665237--8484d3a9b9e32f1455e19ff05302263c9758e31e411ef4c070676bc95eb02bf2.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p71"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s34647294--9c2f01031c76a33170088bb555f98c27c41d36ef24d08595deda197da712c5d1.tif?disposition=attachment&filename=mscodex1263_wk1_back0005",
+                            "label": "Original File - 33 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p72",
+                    "@type": "sc:Canvas",
+                    "label": "Back cover",
+                    "height": 5043,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s6266321--1b63bb2652bd7726e4157bb812e4b20adc791b8fa6ee5b3826455491741f3756.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 5043,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s6266321--1b63bb2652bd7726e4157bb812e4b20adc791b8fa6ee5b3826455491741f3756.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p72"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s33895806--4c2367bc0ca2404a770aa99d33c989ae08c074015a2a9154bd3c880c439af9c7.tif?disposition=attachment&filename=mscodex1263_wk1_back0006",
+                            "label": "Original File - 32.3 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p73",
+                    "@type": "sc:Canvas",
+                    "label": "Spine",
+                    "height": 5043,
+                    "width": 3500,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s1441018--f399d24ef37fdff42bea918ca9ac4f86500836c0fd5c96fc8263849273fe629c.jpeg/full/!200,200/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3500,
+                                "height": 5043,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://colenda.library.upenn.edu/phalt/iiif/2/ark81431p3hd62%2FSHA256E-s1441018--f399d24ef37fdff42bea918ca9ac4f86500836c0fd5c96fc8263849273fe629c.jpeg",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3hd62/canvas/p73"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "@id": "https://colenda.library.upenn.edu/phalt/download/ark81431p3hd62/SHA256E-s33895806--cddfbbaa66b5a3254dd2c5cc07999b1e9447a1bb43e22e4e15c5a3a86ebae918.tif?disposition=attachment&filename=mscodex1263_wk1_back0007",
+                            "label": "Original File - 32.3 MB",
+                            "format": "image/tiff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

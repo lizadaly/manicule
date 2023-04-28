@@ -20,15 +20,6 @@ customElements.define("leaf-nav", LeafNav)
 customElements.define("structure-view", StructureView)
 customElements.define("structure-leaf", StructureLeaf)
 
-// Add cancel listeners to the parent
-document.addEventListener("click", () => {
-  ;
-  [...document.querySelectorAll(".selected")].map((el) => {
-    el.parentNode.selected = !el.parentNode.selected
-    el.classList.toggle("selected")
-  })
-})
-
 // ESC resets all zoom options
 document.addEventListener("keydown", (e) => {
 
