@@ -1,51 +1,55 @@
-import { CollationMember } from "./collation.js"
-import { cacheableImage, iiif } from "./image.js"
+import { CollationMember } from './collation.js'
+import { cacheableImage, iiif } from './image.js'
 
 export class SpreadViewer extends CollationMember {
-  region = "full"
+  region = 'full'
   defaultWidth = 1750
   defaultHeight = 2423
 
-  constructor() {
-    super()
+  static get observedAttributes () {
+    return ['index']
   }
-  static get observedAttributes() {
-    return ["index"]
+
+  get width () {
+    return +this.getAttribute('width') || this.defaultWidth
   }
-  get width() {
-    return +this.getAttribute("width") || this.defaultWidth
+
+  get height () {
+    return +this.getAttribute('height') || this.defaultHeight
   }
-  get height() {
-    return +this.getAttribute("height") || this.defaultHeight
+
+  get default () {
+    return this.getAttribute('default') || 'images/loading-icon.svg'
   }
-  get default() {
-    return this.getAttribute("default") || "images/loading-icon.svg"
-  }
-  connectedCallback() {
+
+  connectedCallback () {
     super.connectedCallback()
   }
-  attributeChangedCallback(name, oldValue, value) {
+
+  attributeChangedCallback (name, oldValue, value) {
     // Fire the render method only when the attribute has been dynamically updated
-    if (name === "index" && oldValue != undefined) {
+    if (name === 'index' && oldValue !== undefined) {
       this.render()
     }
   }
+
   ready = () => {
     this.render()
   }
+
   render = () => {
-    const index = +this.getAttribute("index")
+    const index = +this.getAttribute('index')
     const verso = cacheableImage(
       this.width,
       this.height,
-      "leaf",
+      'leaf',
       {},
       this.default
     )
     const recto = cacheableImage(
       this.width,
       this.height,
-      "leaf",
+      'leaf',
       {},
       this.default
     )
@@ -54,15 +58,15 @@ export class SpreadViewer extends CollationMember {
     const spread = this.collation.data.derived.linear[index]
 
     verso.setAttribute(
-      "data-url",
+      'data-url',
       iiif(spread[0].params.image.url, this.region, this.width, this.height)
     )
     recto.setAttribute(
-      "data-url",
+      'data-url',
       iiif(spread[1].params.image.url, this.region, this.width, this.height)
     )
     this.shadowRoot.lastChild.insertAdjacentHTML(
-      "afterend",
+      'afterend',
       `<style>
           :host {
               display: flex;
@@ -103,16 +107,16 @@ export class SpreadViewer extends CollationMember {
 
 export class LeafNav extends CollationMember {
   ready = () => {
-    const button = document.createElement("button")
-    button.textContent = this.getAttribute("direction")
+    const button = document.createElement('button')
+    button.textContent = this.getAttribute('direction')
     this.shadowRoot.append(button)
-    button.addEventListener("click", () => {
-      const spread = this.collation.querySelector("spread-viewer")
-      const current = +spread.getAttribute("index")
-      if (this.getAttribute("direction") === "next") {
-        spread.setAttribute("index", current + 1)
-      } else if (this.getAttribute("direction") === "previous") {
-        spread.setAttribute("index", current - 1)
+    button.addEventListener('click', () => {
+      const spread = this.collation.querySelector('spread-viewer')
+      const current = +spread.getAttribute('index')
+      if (this.getAttribute('direction') === 'next') {
+        spread.setAttribute('index', current + 1)
+      } else if (this.getAttribute('direction') === 'previous') {
+        spread.setAttribute('index', current - 1)
       }
     })
   }

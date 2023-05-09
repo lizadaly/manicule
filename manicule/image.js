@@ -1,4 +1,4 @@
-import { cache } from "./cache.js"
+import { cache } from './cache.js'
 /**
  * Return an image element that will, as a side effect, cache itself and return the cached image as its source.
  *
@@ -10,31 +10,30 @@ import { cache } from "./cache.js"
  * @param {boolean} visible
  * @param {boolean} selected
 
-
  */
 export const cacheableImage = (
   width,
   height,
   type = undefined,
   attrs = {},
-  srcDefault = "images/document-icon.png",
+  srcDefault = 'images/document-icon.png',
   visible = false,
   selected = false
 ) => {
-  const loadingImg = document.createElement("img")
+  const loadingImg = document.createElement('img')
   loadingImg.width = width
   loadingImg.height = height
   loadingImg.src = srcDefault
-  loadingImg.setAttribute("data-type", type)
+  loadingImg.setAttribute('data-type', type)
 
-  const img = document.createElement("img")
+  const img = document.createElement('img')
   img.width = width
   img.height = height
   img.visible = visible
   img.selected = selected
   img.mousedown = false
-  img.setAttribute("data-type", type)
-  img.setAttribute("data-cacheable-image", "cacheable-image")
+  img.setAttribute('data-type', type)
+  img.setAttribute('data-cacheable-image', 'cacheable-image')
 
   for (const attr of Object.entries(attrs)) {
     const [k, v] = attr
@@ -42,7 +41,7 @@ export const cacheableImage = (
   }
 
   loadingImg.observer = new IntersectionObserver((entries) => {
-    entries.map((entry) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         img.cache()
         loadingImg.observer.unobserve(entry.target)
@@ -51,18 +50,18 @@ export const cacheableImage = (
   })
   loadingImg.observer.observe(loadingImg)
 
-  if (type === "leaf") {
+  if (type === 'leaf') {
     const start = {
       x: 0,
-      y: 0,
+      y: 0
     }
     const offset = {
       x: 0,
-      y: 0,
+      y: 0
     } // The transform offset (from center)
     let scale = 1
     img.addEventListener(
-      "wheel",
+      'wheel',
       (e) => {
         if (img.selected) {
           scale += e.deltaY * -0.01
@@ -79,29 +78,29 @@ export const cacheableImage = (
           } else {
             img.zoomed = false
             img.style.zIndex = 1
-            img.style.translate = "0px 0px"
+            img.style.translate = '0px 0px'
           }
         }
       },
       {
-        passive: true,
+        passive: true
       }
     )
-    img.addEventListener("click", (e) => {
+    img.addEventListener('click', (e) => {
       e.stopPropagation()
       img.selected = !img.selected
-      img.classList.toggle("selected")
+      img.classList.toggle('selected')
     })
-    img.addEventListener("mousedown", (e) => {
+    img.addEventListener('mousedown', (e) => {
       img.mousedown = true
       start.x = e.clientX - offset.x
       start.y = e.clientY - offset.y
     })
-    img.addEventListener("mouseup", () => {
+    img.addEventListener('mouseup', () => {
       img.mousedown = false
     })
 
-    img.addEventListener("mousemove", (e) => {
+    img.addEventListener('mousemove', (e) => {
       if (img.mousedown && img.zoomed && img.selected) {
         e.preventDefault()
         offset.x = e.clientX - start.x
@@ -111,7 +110,7 @@ export const cacheableImage = (
     })
   }
   img.cache = () => {
-    const url = loadingImg.getAttribute("data-url")
+    const url = loadingImg.getAttribute('data-url')
     cache.match(url).then((resp) => {
       if (resp) {
         resp.blob().then((blob) => {
@@ -137,7 +136,7 @@ export const iiif = (
   region,
   width,
   height,
-  rotation = "0",
-  quality = "default",
-  format = "jpg"
+  rotation = '0',
+  quality = 'default',
+  format = 'jpg'
 ) => `${url}/${region}/${width},${height}/${rotation}/${quality}.${format}`

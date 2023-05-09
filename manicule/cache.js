@@ -1,4 +1,4 @@
-const CACHE_NAME = "manicule"
+const CACHE_NAME = 'manicule'
 
 export const cache = await caches.open(CACHE_NAME)
 
