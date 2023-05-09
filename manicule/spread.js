@@ -26,9 +26,9 @@ export class SpreadViewer extends CollationMember {
     super.connectedCallback()
   }
 
-  attributeChangedCallback (name, oldValue, value) {
+  attributeChangedCallback (name, oldValue) {
     // Fire the render method only when the attribute has been dynamically updated
-    if (name === 'index' && oldValue !== undefined) {
+    if (name === 'index' && oldValue) {
       this.render()
     }
   }
@@ -39,6 +39,7 @@ export class SpreadViewer extends CollationMember {
 
   render = () => {
     const index = +this.getAttribute('index')
+    const spread = this.collation.data.derived.linear[index]
     const verso = cacheableImage(
       this.width,
       this.height,
@@ -53,18 +54,20 @@ export class SpreadViewer extends CollationMember {
       {},
       this.default
     )
-
-    this.shadowRoot.replaceChildren(...[verso, recto])
-    const spread = this.collation.data.derived.linear[index]
-
     verso.setAttribute(
       'data-url',
-      iiif(spread[0].params.image.url, this.region, this.width, this.height)
+      this.collation.imageDir
+        ? `${this.collation.imageDir}/leaf${spread[0].parentOrder}-${spread[0].side}${spread[0].id}.jpg`
+        : iiif(spread[0].params.image.url, this.region, this.width, this.height)
     )
     recto.setAttribute(
       'data-url',
-      iiif(spread[1].params.image.url, this.region, this.width, this.height)
+      this.collation.imageDir
+        ? `${this.collation.imageDir}/leaf${spread[1].parentOrder}-${spread[1].side}${spread[1].id}.jpg`
+        : iiif(spread[1].params.image.url, this.region, this.width, this.height)
     )
+    this.shadowRoot.replaceChildren(...[verso, recto])
+
     this.shadowRoot.lastChild.insertAdjacentHTML(
       'afterend',
       `<style>

@@ -18,11 +18,20 @@ fs.mkdirSync(dest, {
   recursive: true
 })
 
+const pages = {}
+
+// Create a lookup table of all the image IDs
+for (const [page, metadata] of Object.entries(data.Rectos)) {
+  pages[metadata.params.image.url] = { side: 'r', page, leaf: metadata.parentOrder }
+}
+for (const [page, metadata] of Object.entries(data.Versos)) {
+  pages[metadata.params.image.url] = { side: 'v', page, leaf: metadata.parentOrder }
+}
+
 for (const manifest of Object.values(data.project.manifests)) {
   const {
     url
   } = manifest
-  console.log(manifest, url)
   downloadImages(url, dest)
 }
 
@@ -42,7 +51,8 @@ async function downloadImages (manifest, dest) {
       images
     } = canvas
     if (images.length > 0) {
-      const base = new URL(images[0].resource.service['@id'])
+      const imageId = images[0].resource.service['@id']
+      const base = new URL(imageId)
       const {
         pathname
       } = base
@@ -50,7 +60,11 @@ async function downloadImages (manifest, dest) {
       const url = `${base}/full/full/0/default.jpg`
       const imageResp = await page.goto(url)
       const image = await imageResp.body()
-      const file = path.join(dest, filename)
+      let outfile = filename
+      if (imageId in pages) {
+        outfile = `leaf${pages[base].leaf}-${pages[base].side}${pages[base].page}.jpg`
+      }
+      const file = path.join(dest, outfile)
       console.log(`Writing ${file}...`)
       fs.writeFile(file, image, (err) => {
         if (err) throw err

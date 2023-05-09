@@ -54,7 +54,9 @@ export class NavStrip extends CollationMember {
           this.width,
           this.height
         )
-        img.setAttribute('data-url', url)
+        img.setAttribute('data-url', this.collation.imageDir
+          ? `${this.collation.imageDir}/leaf${leaf.parentOrder}-${leaf.side}${leaf.id}.jpg`
+          : url)
       }
       i++
       return container
