@@ -11,12 +11,14 @@
   },
   "devDependencies": {
     "standard": "^17.0.0",
-    "vite": "^3.1.0"
+    "vite": "^4.3.9"
   },
   "dependencies": {
-    "playwright": "^1.33.0"
+    "playwright": "^1.34.3"
   },
   "standard": {
-    "env": ["browser"]
+    "env": [
+      "browser"
+    ]
   }
 }
