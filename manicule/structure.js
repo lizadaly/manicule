@@ -128,6 +128,7 @@ export class StructureView extends CollationMember {
         group.recto = recto
         group.verso = verso
         group.leaf = leaf
+        group.imageDir = this.collation.imageDir
         row.append(group)
       }
 
@@ -254,6 +255,7 @@ export class StructureLeaf extends HTMLElement {
     this.recto = undefined
     this.verso = undefined
     this.leaf = undefined
+    this.imageDir = undefined
     this.attachShadow({ mode: 'open' })
   }
 
@@ -293,7 +295,7 @@ export class StructureLeaf extends HTMLElement {
   connectedCallback () {
     this.style.width = `${this.width}px`
     this.style.height = `${this.height}px`
-    const { recto, verso, leaf } = this
+    const { recto, verso, leaf, imageDir } = this
 
     const figure = document.createElement('figure')
     this.shadowRoot.append(figure)
@@ -334,16 +336,18 @@ export class StructureLeaf extends HTMLElement {
         terms.append(leafName, taxonomy, title)
       }
 
-      // Get the URL for this leaf
-      const url = iiif(
-        sideData.data.params.image.url,
-        this.region,
-        this.width,
-        this.height
-      )
+      // FIXME determine how to handle deliberately-missing images
+      const url = imageDir
+        ? `${imageDir}/leaf${leaf.id}-${this.side.charAt(0)}${leaf.id}.jpg`
+        : iiif(
+          sideData.data.params.image.url,
+          this.region,
+          this.width,
+          this.height
+        )
       img.setAttribute(
         'data-url',
-        sideData.data.params.image.url ? url : img.src
+        url // or img.src if no scan is included
       )
       figure.append(img)
 

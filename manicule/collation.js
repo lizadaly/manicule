@@ -23,6 +23,10 @@ export class CollationModel extends HTMLElement {
     return this.getAttribute('id')
   }
 
+  get imageDir () {
+    return this.getAttribute('image-dir')
+  }
+
   async connectedCallback () {
     const resp = await fetch(`./data/${this.id}/${this.id}.json`)
     this.data = await resp.json()
@@ -64,10 +68,10 @@ export class CollationModel extends HTMLElement {
       }
     )
 
-    this.data.derived.linear = versos.map((e, i) => [e, rectos[i]])
+    this.data.derived.linear = versos.map((e, i) => [{ ...e, side: 'v' }, { ...rectos[i], side: 'r' }])
     this.data.derived.linear = this.data.derived.linear.filter(
       (e) => e[0].params.image?.url
-    )
+    ) // FIXME allow for this to be missing
 
     this.data.derived.quires = []
     for (const [id, data] of Object.entries(this.data.Groups)) {
@@ -100,7 +104,7 @@ export class CollationModel extends HTMLElement {
 
   attributeChangedCallback (name, _, value) {
     if (name === 'ready' && value === 'true') {
-      console.log(`Collation ${this.getAttribute('id')} ready.`)
+      console.log(`Collation ${this.id} ready.`)
     }
   }
 
