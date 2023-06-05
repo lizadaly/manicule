@@ -8,6 +8,7 @@ export class CollationModel extends HTMLElement {
   constructor () {
     super()
     this.data = {}
+    this.hasImages = true
     this.insertAdjacentHTML(
       'afterbegin',
       `<style>
@@ -15,7 +16,12 @@ export class CollationModel extends HTMLElement {
                   container-type: size;
                   container-name: outer;
               }
-          </style>`
+              .errors {
+                color: red;
+              }
+       </style>
+       <div class="errors"></div>
+       `
     )
   }
 
@@ -31,6 +37,12 @@ export class CollationModel extends HTMLElement {
     const resp = await fetch(this.path)
     this.data = await resp.json()
 
+    // If there's no IIIF manifest, warn that we'll need local images
+    console.log(this.data.project.manifests.length)
+    if ((!this.data.project.manifests || Object.keys(this.data.project.manifests).length === 0) && !this.imageDir) {
+      this.querySelector('.errors').innerText = 'No IIIF manifest was found; images need to be provided locally via the `image-dir` attribute.'
+      this.hasImages = false
+    }
     // "Derived" data is computed by us from the collation model
     this.data.derived = {}
 

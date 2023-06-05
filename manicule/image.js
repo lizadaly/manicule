@@ -16,14 +16,15 @@ export const cacheableImage = (
   height,
   type = undefined,
   attrs = {},
-  srcDefault = 'images/document-icon.png',
+  srcDefault = 'document-icon.png',
   visible = false,
   selected = false
 ) => {
   const loadingImg = document.createElement('img')
+  const base = new URL('../images', import.meta.url).pathname
   loadingImg.width = width
   loadingImg.height = height
-  loadingImg.src = srcDefault
+  loadingImg.src = base + '/' + srcDefault
   loadingImg.setAttribute('data-type', type)
 
   const img = document.createElement('img')

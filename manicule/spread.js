@@ -19,7 +19,7 @@ export class SpreadViewer extends CollationMember {
   }
 
   get default () {
-    return this.getAttribute('default') || 'images/loading-icon.svg'
+    return this.getAttribute('default') || 'loading-icon.svg'
   }
 
   connectedCallback () {
