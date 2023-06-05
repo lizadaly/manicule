@@ -19,8 +19,8 @@ export class CollationModel extends HTMLElement {
     )
   }
 
-  get id () {
-    return this.getAttribute('id')
+  get path () {
+    return this.getAttribute('path')
   }
 
   get imageDir () {
@@ -28,7 +28,7 @@ export class CollationModel extends HTMLElement {
   }
 
   async connectedCallback () {
-    const resp = await fetch(`./data/${this.id}/${this.id}.json`)
+    const resp = await fetch(this.path)
     this.data = await resp.json()
 
     // "Derived" data is computed by us from the collation model
@@ -104,7 +104,7 @@ export class CollationModel extends HTMLElement {
 
   attributeChangedCallback (name, _, value) {
     if (name === 'ready' && value === 'true') {
-      console.log(`Collation ${this.id} ready.`)
+      console.log(`Collation ${this.path} ready.`)
     }
   }
 
@@ -119,7 +119,7 @@ export class CollationModel extends HTMLElement {
         el.textContent = data
       } else {
         console.warn(
-          `data-project parameter "${attr}" wasn't found in the JSON data for ${this.id}`
+          `data-project parameter "${attr}" wasn't found in the JSON data for ${this.path}`
         )
       }
     }
@@ -133,7 +133,6 @@ export class CollationMember extends HTMLElement {
 
   connectedCallback () {
     const collation = this.collation
-    this.id = collation.getAttribute('id')
     collation.addEventListener(COLLATION_READY_EVENT, this.ready, {
       passive: true,
       once: true,
