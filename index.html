@@ -46,7 +46,7 @@
             </li>
             <li>Put the JSON model file in your new folder.</li>
             <li>
-              Reference the name of the folder as the <code>id</code> in a
+              Reference the path to the JSON file as the <code>path</code> attribute in a
               <code>collation-model</code> tag in your HTML.
             </li>
           </ol>
@@ -55,8 +55,12 @@
             manuscript navigation to appear:
           </p>
           <pre>
-          &lt;collation-model id="62782273d3ef8000013aba57"&gt;&lt;/collation-model&gt;</pre
-          >
+          &lt;collation-model path="data/62782273d3ef8000013aba57/62782273d3ef8000013aba57.json"&gt;&lt;/collation-model&gt;
+          </pre>
+          <p>
+            The value of <code>path</code> can also be a URL (as long as the remote server will allow such requests—Github Pages will do so 
+            by default).
+          </p>
           <p>
             Inside the <code>collation-model</code> tag, add any of the custom
             elements provided by Manicule to show spreads, individual leaves,
@@ -66,7 +70,7 @@
         </section>
 
         <aside>
-          <collation-model id="62782273d3ef8000013aba57">
+          <collation-model path="data/62782273d3ef8000013aba57/62782273d3ef8000013aba57.json">
             <h2 data-project="title">Project title</h2>
             <h3 data-project="metadata.date">Date</h3>
 
@@ -89,7 +93,7 @@
       </div>
 
       <h1>Full-size manuscript exploration</h1>
-      <collation-model id="ms_codex_1077_model">
+      <collation-model path="data/ms_codex_1077_model/ms_codex_1077_model.json">
         <h2 data-project="title">Project title</h2>
         <h3 data-project="metadata.date">Date</h3>
 
