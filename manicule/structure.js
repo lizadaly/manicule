@@ -92,7 +92,7 @@ export class StructureView extends CollationMember {
     for (const quire of this.quires) {
       const row = document.createElement('div')
       this.shadowRoot.append(row)
-
+      quire.sewing = quire.sewing.map(id => `${id}`) // convert the sewing IDs to strings
       const header = document.createElement('h2')
       header.innerText = `Quire ${quire.id}`
       const displaySide = document.createElement('button')
@@ -103,8 +103,8 @@ export class StructureView extends CollationMember {
       })
       header.append(displaySide)
       row.append(header)
-      const svg = document.createElementNS(this.ns, 'svg')
 
+      const svg = document.createElementNS(this.ns, 'svg')
       row.append(svg)
 
       for (const leafId of quire.leaves) {
@@ -150,7 +150,6 @@ export class StructureView extends CollationMember {
         // Loop over the elements as rendered to draw their lines
         for (const leaf of leaves) {
           const id = leaf.getAttribute('data-leaf-id')
-
           const lrect = leaf.getBoundingClientRect()
           // Start and end coordinates for the lines
           const startx = lrect.x - svgRect.left + lrect.width / 2
@@ -175,6 +174,8 @@ export class StructureView extends CollationMember {
 
           path.setAttributeNS(null, 'd', d)
           path.setAttributeNS(null, 'data-leaf-id', id)
+          path.setAttributeNS(null, 'center', center)
+          path.setAttributeNS(null, 'height', height)
 
           // Set a listener on the path and the image to display the relevant terms
           const togglePath = (e) => {
@@ -201,6 +202,17 @@ export class StructureView extends CollationMember {
 
           svg.append(path)
           i++
+        }
+        if (quire.sewing.length > 0) {
+          console.log(quire.sewing[0])
+          const start = svg.querySelector(`path[data-leaf-id="${quire.sewing[0]}"]`)
+          const end = svg.querySelector(`path[data-leaf-id="${quire.sewing[1]}"]`)
+          const line = document.createElementNS(this.ns, 'line')
+          line.setAttribute('x1', start.getAttribute('center'))
+          line.setAttribute('y1', start.getAttribute('height'))
+          line.setAttribute('x2', end.getAttribute('center'))
+          line.setAttribute('y2', end.getAttribute('height'))
+          svg.append(line)
         }
       })
     }
@@ -232,6 +244,12 @@ export class StructureView extends CollationMember {
               stroke: black;
               stroke-width: 2;
               fill: transparent;
+          }
+          svg line {
+            stroke: orange;
+            stroke-width: 2;
+            fill: transparent;
+          
           }
           svg path.hover {
               stroke: var(--highlight-color);
