@@ -125,6 +125,7 @@ export class StructureView extends CollationMember {
         group.setAttribute('width', this.width)
         group.setAttribute('height', this.height)
         group.setAttribute('side', this.side)
+        group.setAttribute('hasImages', this.collation.hasImages)
         group.recto = recto
         group.verso = verso
         group.leaf = leaf
@@ -256,6 +257,7 @@ export class StructureLeaf extends HTMLElement {
     this.verso = undefined
     this.leaf = undefined
     this.imageDir = undefined
+    this.hasImages = undefined
     this.attachShadow({ mode: 'open' })
   }
 
@@ -269,6 +271,10 @@ export class StructureLeaf extends HTMLElement {
 
   get side () {
     return this.getAttribute('side') || this.defaultSide
+  }
+
+  get hasImges () {
+    return this.getAttribute('hasImages') || true
   }
 
   /**
@@ -347,7 +353,7 @@ export class StructureLeaf extends HTMLElement {
         )
       img.setAttribute(
         'data-url',
-        url // or img.src if no scan is included
+        this.hasImages ? url : img.src
       )
       figure.append(img)
 
