@@ -68,7 +68,7 @@ export class CollationModel extends HTMLElement {
     this.data.derived.leaves = Object.entries(this.data.Leafs).map(
       ([id, data]) => {
         data.id = +id
-        data.terms = Object.values(this.data.Terms)
+        data.terms = Object.values(this.data.Terms) // FIXME: terms may apply to more than just leaves; #46
           .map((term) => {
             if (term.objects.Leaf.includes(data.id)) {
               return term.params
