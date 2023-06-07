@@ -353,17 +353,17 @@ export class StructureLeaf extends HTMLElement {
       terms.classList.add('hide')
 
       // Aggregate term data from leaves and sides
+      const pageInfo = document.createElement('span')
+      const folio = leaf.params.folio_number ? `folio ${leaf.params.folio_number} / ` : ''
+      pageInfo.innerText = `${folio} ${sideData.side} ${sideData.data.id}`
+      terms.append(pageInfo)
 
-      for (const term of [...[leaf.terms, sideData.terms]].filter(t => t)) {
-        const leafName = document.createElement('span')
-        leafName.innerText = `L${leaf.id}`
-        const pageName = document.createElement('span')
-        pageName.innerText = `${sideData.side} ${sideData.data.id}`
+      for (const term of [...leaf.terms, sideData.terms].filter(t => t)) {
         const taxonomy = document.createElement('dt')
         const title = document.createElement('dd')
         taxonomy.innerText = term.taxonomy
         title.innerText = term.title
-        terms.append(leafName, pageName, taxonomy, title)
+        terms.append(taxonomy, title)
       }
 
       // FIXME determine how to handle deliberately-missing images
@@ -445,6 +445,9 @@ export class StructureLeaf extends HTMLElement {
           }
           span {
             display: block;
+          }
+          span:first-letter {
+            text-transform: capitalize;
           }
           .hide {
               display: none;
