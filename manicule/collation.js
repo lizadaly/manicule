@@ -58,23 +58,34 @@ export class CollationModel extends HTMLElement {
     this.data.derived.rectos = {}
     this.data.derived.versos = {}
 
-    for (const leaf of rectos) {
-      this.data.derived.rectos[leaf.id] = leaf
+    for (const page of rectos) {
+      page.terms = Object.values(this.data.Terms).map((term) => {
+        if (term.objects.Recto.includes(page.id)) {
+          return term.params
+        }
+        return null
+      }).filter(term => term)
+      this.data.derived.rectos[page.id] = page
     }
-    for (const leaf of versos) {
-      this.data.derived.versos[leaf.id] = leaf
+    for (const page of versos) {
+      page.terms = Object.values(this.data.Terms).map((term) => {
+        if (term.objects.Verso.includes(page.id)) {
+          return term.params
+        }
+        return null
+      }).filter(term => term)
+      this.data.derived.versos[page.id] = page
     }
 
     this.data.derived.leaves = Object.entries(this.data.Leafs).map(
       ([id, data]) => {
         data.id = +id
-        data.terms = Object.values(this.data.Terms) // FIXME: terms may apply to more than just leaves; #46
-          .map((term) => {
-            if (term.objects.Leaf.includes(data.id)) {
-              return term.params
-            }
-            return null
-          })
+        data.terms = Object.values(this.data.Terms).map((term) => {
+          if (term.objects.Leaf.includes(data.id)) {
+            return term.params
+          }
+          return null
+        })
           .filter((term) => term)
         return data
       }

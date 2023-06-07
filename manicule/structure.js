@@ -176,12 +176,11 @@ export class StructureView extends CollationMember {
           path.setAttributeNS(null, 'data-leaf-id', id)
           path.setAttributeNS(null, 'center', center)
           path.setAttributeNS(null, 'height', height)
-          // Set a listener on the path and the image to display the relevant terms
+          // Set a listener on the path and the image to display the relevant terms based on the current side
           const togglePath = (e) => {
-            e.target
-              .getRootNode()
+            e.target.getRootNode()
               .querySelector(`structure-leaf[data-leaf-id="${id}"]`)
-              .shadowRoot.querySelectorAll('figcaption dl')
+              .shadowRoot.querySelectorAll(`figcaption[data-side="${this.side}"] dl`)
               .forEach((dl) => dl.classList.toggle('hide'))
             leaf.classList.toggle('hover')
             path.classList.toggle('hover')
@@ -191,7 +190,7 @@ export class StructureView extends CollationMember {
 
           const toggleLeaf = (e) => {
             e.target.shadowRoot
-              .querySelectorAll('figcaption dl')
+              .querySelectorAll(`figcaption[data-side="${this.side}"] dl`)
               .forEach((dl) => dl.classList.toggle('hide'))
             leaf.classList.toggle('hover')
             path.classList.toggle('hover')
@@ -353,8 +352,9 @@ export class StructureLeaf extends HTMLElement {
       terms.setAttribute('data-leaf-id', leaf.id)
       terms.classList.add('hide')
 
-      for (const term of leaf.terms) {
-        // TODO does this account for sides?
+      // Aggregate term data from leaves and sides
+
+      for (const term of [...[leaf.terms, sideData.terms]].filter(t => t)) {
         const leafName = document.createElement('span')
         leafName.innerText = `L${leaf.id}`
         const pageName = document.createElement('span')
@@ -383,9 +383,7 @@ export class StructureLeaf extends HTMLElement {
 
       const caption = document.createElement('figcaption')
       caption.setAttribute(
-        'data-facing',
-        sideData.side === this.side ? 'front' : 'back'
-      )
+        'data-side', sideData.side)
       figure.append(caption)
 
       // TODO associate the figure and the capture since it's not connected in the DOM
