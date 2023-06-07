@@ -125,7 +125,7 @@ export class StructureView extends CollationMember {
         group.setAttribute('width', this.width)
         group.setAttribute('height', this.height)
         group.setAttribute('side', this.side)
-        group.setAttribute('hasImages', this.collation.hasImages)
+        group.setAttribute('has-images', this.collation.hasImages)
         group.recto = recto
         group.verso = verso
         group.leaf = leaf
@@ -176,13 +176,11 @@ export class StructureView extends CollationMember {
           path.setAttributeNS(null, 'data-leaf-id', id)
           path.setAttributeNS(null, 'center', center)
           path.setAttributeNS(null, 'height', height)
-
-          // Set a listener on the path and the image to display the relevant terms
+          // Set a listener on the path and the image to display the relevant terms based on the current side
           const togglePath = (e) => {
-            e.target
-              .getRootNode()
+            e.target.getRootNode()
               .querySelector(`structure-leaf[data-leaf-id="${id}"]`)
-              .shadowRoot.querySelectorAll('dl')
+              .shadowRoot.querySelectorAll(`figcaption[data-side="${this.side}"] dl`)
               .forEach((dl) => dl.classList.toggle('hide'))
             leaf.classList.toggle('hover')
             path.classList.toggle('hover')
@@ -192,7 +190,7 @@ export class StructureView extends CollationMember {
 
           const toggleLeaf = (e) => {
             e.target.shadowRoot
-              .querySelectorAll('dl')
+              .querySelectorAll(`figcaption[data-side="${this.side}"] dl`)
               .forEach((dl) => dl.classList.toggle('hide'))
             leaf.classList.toggle('hover')
             path.classList.toggle('hover')
@@ -204,7 +202,6 @@ export class StructureView extends CollationMember {
           i++
         }
         if (quire.sewing.length > 0) {
-          console.log(quire.sewing[0])
           const start = svg.querySelector(`path[data-leaf-id="${quire.sewing[0]}"]`)
           const end = svg.querySelector(`path[data-leaf-id="${quire.sewing[1]}"]`)
           const line = document.createElementNS(this.ns, 'line')
@@ -275,7 +272,6 @@ export class StructureLeaf extends HTMLElement {
     this.verso = undefined
     this.leaf = undefined
     this.imageDir = undefined
-    this.hasImages = undefined
     this.attachShadow({ mode: 'open' })
   }
 
@@ -291,8 +287,8 @@ export class StructureLeaf extends HTMLElement {
     return this.getAttribute('side') || this.defaultSide
   }
 
-  get hasImges () {
-    return this.getAttribute('hasImages') || true
+  get hasImages () {
+    return this.getAttribute('has-images') || true
   }
 
   /**
@@ -314,6 +310,13 @@ export class StructureLeaf extends HTMLElement {
    */
   set side (side) {
     this.setAttribute('side', side)
+  }
+
+  /**
+   * @param {boolean} hasImages
+   */
+  set hasImages (hasImages) {
+    this.setAttribute('has-images', hasImages)
   }
 
   connectedCallback () {
@@ -349,15 +352,18 @@ export class StructureLeaf extends HTMLElement {
       terms.setAttribute('data-leaf-id', leaf.id)
       terms.classList.add('hide')
 
-      for (const term of leaf.terms) {
-        // TODO does this account for sides?
-        const leafName = document.createElement('span')
-        leafName.innerText = `L${leaf.id}`
+      // Aggregate term data from leaves and sides
+      const pageInfo = document.createElement('span')
+      const folio = leaf.params.folio_number ? `folio ${leaf.params.folio_number} / ` : ''
+      pageInfo.innerText = `${folio} ${sideData.side} ${sideData.data.id}`
+      terms.append(pageInfo)
+
+      for (const term of [...leaf.terms, sideData.terms].filter(t => t)) {
         const taxonomy = document.createElement('dt')
         const title = document.createElement('dd')
         taxonomy.innerText = term.taxonomy
         title.innerText = term.title
-        terms.append(leafName, taxonomy, title)
+        terms.append(taxonomy, title)
       }
 
       // FIXME determine how to handle deliberately-missing images
@@ -376,6 +382,8 @@ export class StructureLeaf extends HTMLElement {
       figure.append(img)
 
       const caption = document.createElement('figcaption')
+      caption.setAttribute(
+        'data-side', sideData.side)
       figure.append(caption)
 
       // TODO associate the figure and the capture since it's not connected in the DOM
@@ -434,6 +442,12 @@ export class StructureLeaf extends HTMLElement {
           }
           img:not([src]) {
             visibility: hidden;
+          }
+          span {
+            display: block;
+          }
+          span:first-letter {
+            text-transform: capitalize;
           }
           .hide {
               display: none;
