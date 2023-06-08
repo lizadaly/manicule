@@ -16,7 +16,7 @@ export const cacheableImage = (
   height,
   type = undefined,
   attrs = {},
-  srcDefault = 'document-icon.png',
+  srcDefault = 'document-icon.svg',
   visible = false,
   selected = false
 ) => {
