@@ -40,32 +40,40 @@ export class SpreadViewer extends CollationMember {
   render = () => {
     const index = +this.getAttribute('index')
     const spread = this.collation.data.derived.linear[index]
+    const hasVerso = this.collation.data.derived.leaves[spread[0].id].params.folio_number
+    const hasRecto = this.collation.data.derived.leaves[spread[1].id].params.folio_number
     const verso = cacheableImage(
       this.width,
       this.height,
       'leaf',
       {},
-      this.default
+      hasVerso ? this.default : 'document-icon.svg'
     )
     const recto = cacheableImage(
       this.width,
       this.height,
       'leaf',
       {},
-      this.default
+      hasRecto ? this.default : 'document-icon.svg'
     )
-    verso.setAttribute(
-      'data-url',
-      this.collation.imageDir
-        ? `${this.collation.imageDir}/leaf${spread[0].parentOrder}-${spread[0].side}${spread[0].id}.jpg`
-        : iiif(spread[0].params.image.url, this.region, this.width, this.height)
-    )
-    recto.setAttribute(
-      'data-url',
-      this.collation.imageDir
-        ? `${this.collation.imageDir}/leaf${spread[1].parentOrder}-${spread[1].side}${spread[1].id}.jpg`
-        : iiif(spread[1].params.image.url, this.region, this.width, this.height)
-    )
+
+    console.log(hasVerso, hasRecto)
+    if (hasVerso) {
+      verso.setAttribute(
+        'data-url',
+        this.collation.imageDir
+          ? `${this.collation.imageDir}/leaf${spread[0].parentOrder}-${spread[0].side}${spread[0].id}.jpg`
+          : iiif(spread[0].params.image.url, this.region, this.width, this.height)
+      )
+    }
+    if (hasRecto) {
+      recto.setAttribute(
+        'data-url',
+        this.collation.imageDir
+          ? `${this.collation.imageDir}/leaf${spread[1].parentOrder}-${spread[1].side}${spread[1].id}.jpg`
+          : iiif(spread[1].params.image.url, this.region, this.width, this.height)
+      )
+    }
     this.shadowRoot.replaceChildren(...[verso, recto])
 
     this.shadowRoot.lastChild.insertAdjacentHTML(
