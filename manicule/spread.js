@@ -89,8 +89,8 @@ export class SpreadViewer extends CollationMember {
               height: auto;
               max-width: 100%;
           }
-          img[src="images/loading-icon.svg"] {
-              opacity: 0.5;
+          img[src$="loading-icon.svg"] {
+              opacity: 0.25;
               scale: 0.25;
               animation: spin 1.5s infinite linear;
           }

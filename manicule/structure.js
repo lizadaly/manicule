@@ -221,9 +221,10 @@ export class StructureView extends CollationMember {
               flex-wrap: wrap;
               flex-direction: column;
           }
+
           div {
               white-space: nowrap;
-              margin-bottom: 60px;
+              margin-bottom: 5rem;
           }
           [data-type="side-toggle"] {
               background: none;
@@ -353,10 +354,15 @@ export class StructureLeaf extends HTMLElement {
       terms.classList.add('hide')
 
       // Aggregate term data from leaves and sides
+      const leafInfo = document.createElement('span')
+      leafInfo.classList.add('leaf-info')
       const pageInfo = document.createElement('span')
-      const folio = leaf.params.folio_number ? `folio ${leaf.params.folio_number} / ` : ''
-      pageInfo.innerText = `${folio} ${sideData.side} ${sideData.data.id}`
-      terms.append(pageInfo)
+      pageInfo.classList.add('page-info')
+
+      const folio = leaf.params.folio_number ? `folio ${leaf.params.folio_number}` : ''
+      leafInfo.innerText = `${folio} ${leaf.params.material !== 'None' ? leaf.params.material : ''}`
+      pageInfo.innerText = `${sideData.side} ${sideData.data.id} : ${sideData.data.params.texture}`
+      terms.append(leafInfo, pageInfo)
 
       for (const term of [...leaf.terms, sideData.terms].filter(t => t)) {
         const taxonomy = document.createElement('dt')
@@ -421,9 +427,8 @@ export class StructureLeaf extends HTMLElement {
           }
           figcaption {
               position: absolute;
-              bottom: -60px;
+              top: 60px;
               width: 100%;
-              height: 3rem;
           }
           figcaption dt {
               display: none;
