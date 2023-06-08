@@ -109,17 +109,36 @@ export class SpreadViewer extends CollationMember {
 }
 
 export class LeafNav extends CollationMember {
+  connectedCallback () {
+    super.connectedCallback()
+  }
+
+  get spread () {
+    return this.collation.querySelector('spread-viewer')
+  }
+
+  get current () {
+    return +this.spread.getAttribute('index')
+  }
+
+  get hasNext () {
+    return this.current + 1 < this.collation.data.derived.linear.length
+  }
+
+  get hasPrevious () {
+    return this.current - 1 >= 0
+  }
+
   ready = () => {
     const button = document.createElement('button')
     button.textContent = this.getAttribute('direction')
     this.shadowRoot.append(button)
+
     button.addEventListener('click', () => {
-      const spread = this.collation.querySelector('spread-viewer')
-      const current = +spread.getAttribute('index')
-      if (this.getAttribute('direction') === 'next') {
-        spread.setAttribute('index', current + 1)
-      } else if (this.getAttribute('direction') === 'previous') {
-        spread.setAttribute('index', current - 1)
+      if (this.getAttribute('direction') === 'next' && this.hasNext) {
+        this.spread.setAttribute('index', this.current + 1)
+      } else if (this.getAttribute('direction') === 'previous' && this.hasPrevious) {
+        this.spread.setAttribute('index', this.current - 1)
       }
     })
   }
