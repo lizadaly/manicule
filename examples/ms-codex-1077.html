@@ -5,14 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ms. Codex 107: [Cartulary] example | Manicule</title>
-  <link rel="stylesheet" href="../../manicule.css" />
-  <script type="module" src="../../manicule/index.js"></script>
+  <link rel="stylesheet" href="../manicule.css" />
+  <script type="module" src="../manicule/index.js"></script>
 </head>
 
 <body>
   <header>
     <nav>
-      <h1><a href="../../">Manicule</a></h1>
+      <h1><a href="../">Manicule</a></h1>
       <ol>
         <li>About</li>
         <li><a href="https://github.com/lizadaly/manicule">Source code</a></li>
@@ -23,13 +23,13 @@
   <main>
 
     <h1>Full-size manuscript exploration</h1>
-    <collation-model path="../../data/ms-codex-1077/ms-codex-1077.json">
+    <collation-model path="../data/ms-codex-1077/ms-codex-1077.json">
       <h2 data-project="title">Project title</h2>
       <h3 data-project="metadata.date">Date</h3>
 
-      <div>
+      <div style="display: flex; gap: 10px; align-items: bottom">
         <spread-nav direction="previous"></spread-nav>
-        <spread-viewer index="1"></spread-viewer>
+        <spread-viewer index="1"></spread-viewer><br>
         <spread-nav direction="next"></spread-nav>
       </div>
 
@@ -46,4 +46,4 @@
   </main>
 </body>
 
-</html>z`
+</html>
