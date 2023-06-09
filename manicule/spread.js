@@ -57,7 +57,6 @@ export class SpreadViewer extends CollationMember {
       hasRecto ? this.default : 'document-icon.svg'
     )
 
-    console.log(hasVerso, hasRecto)
     if (hasVerso) {
       verso.setAttribute(
         'data-url',
@@ -116,7 +115,7 @@ export class SpreadViewer extends CollationMember {
   }
 }
 
-export class LeafNav extends CollationMember {
+export class SpreadNav extends CollationMember {
   connectedCallback () {
     super.connectedCallback()
   }

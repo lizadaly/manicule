@@ -7,7 +7,7 @@ import {
 } from './structure.js'
 import {
   SpreadViewer,
-  LeafNav
+  SpreadNav
 } from './spread.js'
 import {
   NavStrip
@@ -16,7 +16,7 @@ import {
 customElements.define('collation-model', CollationModel)
 customElements.define('nav-strip', NavStrip)
 customElements.define('spread-viewer', SpreadViewer)
-customElements.define('leaf-nav', LeafNav)
+customElements.define('spread-nav', SpreadNav)
 customElements.define('structure-view', StructureView)
 customElements.define('structure-leaf', StructureLeaf)
 
