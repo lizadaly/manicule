@@ -20,7 +20,11 @@ body {
 button {
   cursor: pointer;
 }
-
+code {
+  font-family: 'SF Mono', Consolas, monospace;
+  font-size: larger;
+  color: var(--accent-color);
+}
 header {
   padding: 0 var(--margin-width);
   border-bottom: var(--region-border) solid var(--accent-color);
@@ -60,14 +64,16 @@ button[data-opener] {
 }
 
 #introduction {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   gap: var(--gap);
-  margin-bottom: calc(var(--gap) * 2);
+}
+#introduction h1 {
+  font-size: 2em;
 }
 #introduction aside {
   background-color: rgb(241, 241, 241);
   padding: var(--gap);
+  flex-basis: 20%;
 }
 button {
   background: var(--accent-color);

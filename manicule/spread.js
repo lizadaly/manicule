@@ -115,7 +115,7 @@ export class SpreadViewer extends CollationMember {
   }
 }
 
-export class LeafNav extends CollationMember {
+export class SpreadNav extends CollationMember {
   connectedCallback () {
     super.connectedCallback()
   }
